@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item {
+  font-size: 1.1rem;
+}
+.removepadding {
+  padding: 0;
+}
+.button-corrected{
+    margin-top: 15px;
+}

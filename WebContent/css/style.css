@@ -1,0 +1,169 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+.navbar {
+  border-bottom: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1); }
+
+.fa-cog {
+  color: black; }
+
+.fa-check-circle {
+  color: rgba(25, 185, 25, 0.89); }
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.nav-item {
+  font-size: 1.1rem; }
+
+.navbar-padding-remove {
+  padding: 0; }
+
+.profiledetails {
+  margin: 0; }
+
+.removedeco {
+  list-style-type: none; }
+
+.heading {
+  margin-top: 15px; }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  --profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  --profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; } }
+
+@media (min-width: 1200px) {
+  --profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; } }
+
+.btn-custom:link, .btn-custom:visited {
+  color: #0275d8;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #0275d8;
+  padding: 3px;
+  transition: all .2s; }
+
+.btn-custom:hover {
+  background-color: #0275d8;
+  color: white;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn-custom:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
+
+.profilephoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+.profile-link {
+  text-decoration: none;
+  text-align: center; }
+
+.profile-his {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+.e-wallet-details {
+  max-width: 30rem;
+  height: 5rem;
+  background-color: white;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  border-radius: 15px;
+  padding: 0 3rem;
+  overflow: hidden; }
+  .e-wallet-details:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
+
+.bank-details-brief {
+  width: 30rem;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  border-radius: 15px;
+  text-align: center;
+  overflow: hidden; }
+  .bank-details-brief:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
+  .bank-details-brief--name {
+    padding: 0 auto; }
+
+.transactionrecent {
+  width: auto;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 15px; }
+  .transactionrecent:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
+
+.bank-details {
+  text-align: center;
+  width: auto;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1); }
+
+.transfermoney-container {
+  width: auto;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 5rem;
+   }
+  .transfermoney-container:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
+
+.profile-details {
+  width: 50rem;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 15px; }
+  .profile-details:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
+  .profile-details--profilepic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; }
+    
+    
+   .table-responsive {
+  display: table;
+}
+    
